@@ -1,0 +1,255 @@
+/*初始化CSS-S*/
+	html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,input{
+	 	margin:0; 
+ 		padding:0; 
+ 	}
+ 	 body{
+		font-size: 12px;
+		color: #444444;
+		background-color: #DEDEDE;
+	}
+	a{
+		text-decoration: none;
+		color: #EAEBED;
+	}
+	a:hover{
+		color: orange;
+	}
+/*初始化CSS-E*/
+
+/*nav-S*/
+	.nav{
+		height: 60px;
+		background: url(../images/logo.jpg) no-repeat 100px 0;
+		background-color: #1A181D;
+		margin-bottom: 20px;
+	}
+	.nav ul{
+		float: right;
+		margin-right: 20px;
+	}
+	.nav li{
+		width: 72px;
+		float: left;
+		line-height: 60px;
+	}
+/*nav-E*/
+
+/*content1-S*/
+	.content1{
+		width: 1238px;
+		height: 708px;
+		border: 1px solid #CDCDCD;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.content1_banxin{
+		padding: 40px 35px 40px 20px;
+	}
+	.content1 h1{
+		margin-bottom: 23px;
+	}
+	.content1 h2{
+		margin-bottom: 20px;
+	}
+	.content1 span{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.content1 p{
+		line-height: 23px;
+		text-indent: 2em;
+	}
+	.tupian1{
+		width: 300px;
+		height: 242px;
+		background: url(../images/4.jpg);
+		margin: 20px 0;
+	}
+/*content1-E*/
+
+/*content2-S*/
+	.content2{
+		width: 1238px;
+		height: 655px;
+		border: 1px solid #CDCDCD;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+	.content2_banxin{
+		padding: 40px 35px 40px 20px;
+	}
+	.content2 h1{
+		margin-bottom: 23px;
+	}
+	.content2 h2{
+		margin-bottom: 20px;
+	}
+	.content2 span{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.content2 p{
+		line-height: 23px;
+		text-indent: 2em;
+	}
+	.tupian2{
+		width: 300px;
+		height: 242px;
+		background: url(../images/3.jpg);
+		margin: 20px 0;
+	}
+	.content2 li{
+		list-style: none;
+		line-height: 25px;
+	}
+/*content2-E*/
+
+/*content3-S*/
+	.content3{
+		height: 1515px;
+		width: 1238px;
+		border: 1px solid #CDCDCD;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+	.content3 h1{
+		margin-top: 40px;
+		margin-left: 23px;
+	}
+	.tupian3{
+		height: 124px;
+		width: 120px;
+		border: 1px solid #CDCDCD;
+		margin: 15px 60px;
+		text-align: center;
+	}
+	figcaption{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+/*content3-E*/
+
+/*ctable-S*/
+	.ctable{
+		height: 420px;
+		width: 1238px;
+		border: 1px solid #CDCDCD;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+		margin-bottom: 38px;
+	}
+	.ctable h1{
+		margin: 28px 0 20px 20px;
+	}
+	.ctable h2{
+		margin-left: 20px;
+		margin-bottom: 18px;
+	}
+	.ctable p{
+		margin: 0 0 22px 20px;
+	}
+	.ctable ol{
+		margin-left: 44px;
+		margin-bottom: 15px;
+	}
+	.ctable li{
+		line-height: 24px;
+	}
+	.ctable span{
+		display: block;
+		margin-left: 20px;
+	}
+	.ctable table{
+		width: 1198px;
+		height: 148px;
+		border: 1px solid #CDCDCD;
+		margin: 0 auto;
+		border-collapse: collapse;
+		text-align: center;
+	}
+	.ctable thead{
+		background-color: #333333;
+		color: white;
+	}
+	.ctable tfoot{
+		background-color: #CCCCCC;
+	}
+/*ctable-E*/
+
+/*cform-S*/
+	.cform{
+		width: 1238px;
+		height: 497px;
+		border: 1px solid #CDCDCD;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+		margin-bottom: 17px;
+	}
+	.cform h1{
+		border-left: 5px solid #CDCDCD;
+		margin: 20px 0 10px 20px;
+		padding: 10px;
+	}
+	.label1{
+		margin-left: 288px;
+	}
+	.cform p{
+		margin-left: 385px;
+		margin-top: 12px;
+		margin-bottom: 22px;
+		color: #B4A193;
+	}
+	.label2{
+		margin-left: 312px;
+	}
+	.label3{
+		display: block;
+		margin-left: 288px;
+		margin-top: 10px;
+	}
+	.xing{
+		margin-left: 350px;
+		margin-bottom: 12px;
+	}
+	.city{
+		margin-left: 350px;
+		margin-bottom: 12px;
+	}
+	.aihao{
+		margin-left: 350px;
+		margin-bottom: 15px;
+	}
+	.miaoshu{
+		margin-left: 325px;
+		margin-bottom: 13px;
+	}
+	.miaoshu span{
+		float: left;
+	}
+	.queren{
+		padding-left: 20px;
+	}
+/*cform-E*/
+
+/*cfoot-S*/
+	.cfoot{
+		height: 70px;
+		background-color: #000000;
+	}
+	.cfoot p{
+		padding: 22px 610px;
+		color: white;
+	}
+/*cfoot-E*/
+
+
+
+
+
+
+
+
